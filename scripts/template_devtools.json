@@ -363,11 +363,11 @@
                     "description": "Allow all access"
                   }
                 ],
-                "scmIpSecurityRestrictionsUseMain": false,
+                "scmIpSecurityRestrictionsUseMain": true,
                 "http20Enabled": false,
                 "minTlsVersion": "1.2",
-                "scmMinTlsVersion": "1.0",
-                "ftpsState": "FtpsOnly",
+                "scmMinTlsVersion": "1.2",
+                "ftpsState": "Disabled",
                 "preWarmedInstanceCount": 0,
                 "functionAppScaleLimit": 0,
                 "functionsRuntimeScaleMonitoringEnabled": false,
@@ -492,11 +492,11 @@
                     "description": "Allow all access"
                   }
                 ],
-                "scmIpSecurityRestrictionsUseMain": false,
+                "scmIpSecurityRestrictionsUseMain": true,
                 "http20Enabled": false,
                 "minTlsVersion": "1.2",
-                "scmMinTlsVersion": "1.0",
-                "ftpsState": "FtpsOnly",
+                "scmMinTlsVersion": "1.2",
+                "ftpsState": "Disabled",
                 "preWarmedInstanceCount": 0,
                 "functionAppScaleLimit": 0,
                 "functionsRuntimeScaleMonitoringEnabled": false,
@@ -642,11 +642,11 @@
                     "description": "Allow all access"
                   }
                 ],
-                "scmIpSecurityRestrictionsUseMain": false,
+                "scmIpSecurityRestrictionsUseMain": true,
                 "http20Enabled": false,
                 "minTlsVersion": "1.2",
-                "scmMinTlsVersion": "1.0",
-                "ftpsState": "FtpsOnly",
+                "scmMinTlsVersion": "1.2",
+                "ftpsState": "Disabled",
                 "preWarmedInstanceCount": 0,
                 "functionAppScaleLimit": 0,
                 "functionsRuntimeScaleMonitoringEnabled": false,
@@ -771,11 +771,11 @@
                     "description": "Allow all access"
                   }
                 ],
-                "scmIpSecurityRestrictionsUseMain": false,
+                "scmIpSecurityRestrictionsUseMain": true,
                 "http20Enabled": false,
                 "minTlsVersion": "1.2",
-                "scmMinTlsVersion": "1.0",
-                "ftpsState": "FtpsOnly",
+                "scmMinTlsVersion": "1.2",
+                "ftpsState": "Disabled",
                 "preWarmedInstanceCount": 0,
                 "functionAppScaleLimit": 0,
                 "functionsRuntimeScaleMonitoringEnabled": false,
@@ -932,7 +932,6 @@
                 "AzureWebJobsDashboard": "",
                 "FUNCTIONS_EXTENSION_VERSION": "~3",
                 "ValidAppIds": "",
-                "WEBSITE_LOAD_CERTIFICATES": "*",
                 "AppConfigurationLabel": "",
                 "AzureAppConfigurationUrl": ""
               }
@@ -1067,8 +1066,7 @@
                 "AzureWebJobsStorage": "",
                 "AzureWebJobsDashboard": "",
                 "FUNCTIONS_EXTENSION_VERSION": "~3",
-                "StorageAccountName": "",
-                "WEBSITE_LOAD_CERTIFICATES": "*"
+                "StorageAccountName": ""
               }
             },
             {
@@ -1202,8 +1200,7 @@
                 "AzureWebJobsDashboard": "",
                 "ComponentName": "TenantOnboardingHelperProcessor",
                 "FUNCTIONS_EXTENSION_VERSION": "~3",
-                "StorageAccountName": "",
-                "WEBSITE_LOAD_CERTIFICATES": "*"
+                "StorageAccountName": ""
               }
             },
             {
