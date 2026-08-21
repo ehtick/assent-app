@@ -745,7 +745,7 @@
                 "enabledForTemplateDeployment": true,
                 "enableSoftDelete": true,
                 "softDeleteRetentionInDays": 90,
-                "enableRbacAuthorization": false
+                "enableRbacAuthorization": true
               }
             },
             {
@@ -977,11 +977,11 @@
                     "description": "Allow all access"
                   }
                 ],
-                "scmIpSecurityRestrictionsUseMain": false,
+                "scmIpSecurityRestrictionsUseMain": true,
                 "http20Enabled": false,
                 "minTlsVersion": "1.2",
-                "scmMinTlsVersion": "1.0",
-                "ftpsState": "FtpsOnly",
+                "scmMinTlsVersion": "1.2",
+                "ftpsState": "Disabled",
                 "preWarmedInstanceCount": 0,
                 "functionAppScaleLimit": 0,
                 "functionsRuntimeScaleMonitoringEnabled": false,
@@ -1158,8 +1158,7 @@
                 "AzureAppConfigurationUrl": "[concat('https://',parameters('appConfigurationName'), '.azconfig.io')]",
                 "ComponentName": "ApprovalsCoreServicesAPI",
                 "ValidAppIds": "",
-                "ValidAudienceUrl": "",
-                "WEBSITE_LOAD_CERTIFICATES": "*"
+                "ValidAudienceUrl": ""
               }
             },
             {
@@ -1465,8 +1464,7 @@
                 "AzureWebJobsDashboard": "[concat('@Microsoft.KeyVault(SecretUri=https://',parameters('keyVaultName'), '.vault.azure.net/secrets/StorageConnectionString)')]",
                 "AzureWebJobsStorage": "[concat('@Microsoft.KeyVault(SecretUri=https://',parameters('keyVaultName'), '.vault.azure.net/secrets/StorageConnectionString)')]",
                 "ComponentName": "ApprovalsNotificationProcessor",
-                "FUNCTIONS_EXTENSION_VERSION": "~3",
-                "WEBSITE_LOAD_CERTIFICATES": "*"
+                "FUNCTIONS_EXTENSION_VERSION": "~3"
               }
             },
             {

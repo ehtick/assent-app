@@ -32,6 +32,7 @@ Apart from these keep the following items handy as it would be required during d
 - Custom Application Name which would be used to create AppServices/Functions (resource_name_prefix)
 - Custom Resource Group Name where all the resources will be deployed
 - Location/code to deploy the Azure Resources (e.g. Central US/centralus. Powershell Command: Get-AzureRmLocation |Format-Table)
+- Assign "Key Vault Secrets User" role to the deployment principal
 
 
 ### Installing
